@@ -1,0 +1,86 @@
+* {
+   font-family: 'Titillium Web', sans-serif;
+ }
+
+nav{
+  padding-left: 20px;
+}
+
+
+p {
+ line-height: 2rem;
+}
+
+.button-collapse {
+ color: #26a69a;
+}
+
+.modal {
+
+}
+
+
+.parallax img{
+ display: absolute;
+
+}
+
+.parallax-container {
+ min-height: 380px;
+ line-height: 0;
+ height: auto;
+ color: rgba(255,255,255,.9);
+}
+ .parallax-container .section {
+   width: 100%;
+ }
+
+#sidenav-overlay{
+ background: none;
+}
+
+@media only screen and (max-width : 992px) {
+ .parallax-container .section {
+   position: absolute;
+   top: 40%;
+ }
+ #index-banner .section {
+   top: 10%;
+ }
+}
+
+@media only screen and (max-width : 600px) {
+ #index-banner .section {
+   top: 0;
+ }
+}
+
+.icon-block {
+ padding: 0 15px;
+}
+.icon-block .material-icons {
+ font-size: inherit;
+}
+
+footer{
+ margin: 0;
+ background: #282F33;
+
+}
+
+#logo{
+	margin-top:5px;
+}
+
+footer.page-footer {
+
+}
+
+footer.page-footer .footer-copyright {
+ background: #2f373c;
+}
+
+.modal{
+
+ width: 75%;
+}
