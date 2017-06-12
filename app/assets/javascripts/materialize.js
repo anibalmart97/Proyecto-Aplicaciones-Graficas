@@ -3,5 +3,6 @@ $(document).ready(function() {
   $('.parallax').parallax();
   $(".button-collapse").sideNav();
   $(".card-reveal").span();
-   $('.modal').modal();
+  $('.modal-trigger').leanModal();
+  $('.modal').modal();
 });
